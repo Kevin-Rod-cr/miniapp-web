@@ -48,7 +48,7 @@ nav a:hover {
   color: #ffe6e1;
 }
 
-/* Sección de presentación */
+/* Presentación */
 .presentacion {
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Sección de productos */
+/* Productos */
 .productos {
   padding: 50px 20px;
   background-color: #fff;
@@ -93,36 +93,118 @@ nav a:hover {
   margin-bottom: 40px;
 }
 
-.grid-productos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+.categoria {
+  margin-bottom: 40px;
+}
+
+.categoria h3 {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid #ffd0c4;
+  margin: 40px auto;
 }
 
 .producto {
   background-color: #fafafa;
   border-radius: 10px;
   padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.producto:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .producto img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.producto h3 {
-  color: #333;
-  margin: 15px 0 10px;
+.btn-agregar {
+  margin-top: 10px;
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
- 
+
+.btn-agregar:hover {
+  background-color: #e5533a;
+}
+
+/* ====== CONTACTO ====== */
+.contacto {
+  background-color: #fdfdfd;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contacto h2 {
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.form-contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff5f2;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.campo label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.campo input,
+.campo textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border-color: #ff6347;
+  outline: none;
+}
+
+.btn-enviar {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #e5533a;
+}
