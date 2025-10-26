@@ -1,11 +1,128 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
 }
-h1 {
-  color: #2b6cb0;
+
+/* Encabezado */
+header {
+  background-color: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 20px 0 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
-button {
-  padding: 8px 12px;
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
+
+header h1:hover {
+  transform: scale(1.05);
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe6e1;
+}
+
+/* Sección de presentación */
+.presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 30px;
+}
+
+.presentacion .texto {
+  flex: 1 1 350px;
+  max-width: 500px;
+}
+
+.presentacion .texto h2 {
+  color: #ff6347;
+}
+
+.presentacion .texto p {
+  line-height: 1.6;
+}
+
+.presentacion .imagen {
+  flex: 1 1 300px;
+}
+
+.presentacion .imagen img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Sección de productos */
+.productos {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.productos h2 {
+  color: #ff6347;
+  margin-bottom: 40px;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.producto {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.producto h3 {
+  color: #333;
+  margin: 15px 0 10px;
+}
+ 

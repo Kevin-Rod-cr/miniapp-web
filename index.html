@@ -1,17 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Miniapp Web</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Mi Mini App</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClothesCaleño</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1 id="nombre-negocio">ClothesCaleño</h1>
+    <nav>
+      <ul>
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#productos">Productos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <button id="btn">Haz clic</button>
-    <p id="msg"></p>
+  <!-- Sección de presentación -->
+  <section id="presentacion" class="presentacion">
+    <div class="texto">
+      <h2>¡Bienvenido a ClothesCaleño!</h2>
+      <p>
+        Somos una tienda orgullosamente caleña que combina el estilo urbano con la frescura del Pacífico colombiano.  
+        Aquí encontrarás ropa moderna, colorida y con el toque alegre que caracteriza a nuestra bella Cali.  
+        Desde camisetas tropicales hasta outfits para salir a rumbear en la Sultana del Valle.  
+        ¡Vení y vestite con sabor caleño, ois!
+      </p>
+    </div>
+    <div class="imagen">
+      <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=900&q=80" alt="Ropa caleña colorida">
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- Sección de productos -->
+  <section id="productos" class="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="grid-productos">
+
+      <!-- Gorra -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Gorra">
+        <h3>Gorra Caleña</h3>
+        <p><strong>Marca:</strong> Pacific Vibes</p>
+        <p><strong>Precio:</strong> $45.000 COP</p>
+        <p><strong>Tallas:</strong> Única ajustable</p>
+        <p><strong>Material:</strong> Algodón 100%, diseño bordado inspirado en Cali.</p>
+      </div>
+
+      <!-- Gafas -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1502767089025-6572583495b0?auto=format&fit=crop&w=400&q=80" alt="Gafas">
+        <h3>Gafas Urbanas</h3>
+        <p><strong>Marca:</strong> Sol del Valle</p>
+        <p><strong>Precio:</strong> $80.000 COP</p>
+        <p><strong>Tallas:</strong> Única</p>
+        <p><strong>Material:</strong> Marco de policarbonato con protección UV400.</p>
+      </div>
+
+      <!-- Chaqueta -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3c9a?auto=format&fit=crop&w=400&q=80" alt="Chaqueta">
+        <h3>Chaqueta Street Cali</h3>
+        <p><strong>Marca:</strong> CaliWear</p>
+        <p><strong>Precio:</strong> $150.000 COP</p>
+        <p><strong>Tallas:</strong> S, M, L, XL</p>
+        <p><strong>Material:</strong> Poliéster resistente al agua, ideal para noches frescas.</p>
+      </div>
+
+      <!-- Buso -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1603252110263-fb63ac591728?auto=format&fit=crop&w=400&q=80" alt="Buso">
+        <h3>Buso Cali Nights</h3>
+        <p><strong>Marca:</strong> Sultana Street</p>
+        <p><strong>Precio:</strong> $90.000 COP</p>
+        <p><strong>Tallas:</strong> M, L, XL</p>
+        <p><strong>Material:</strong> Algodón suave con detalles bordados y capucha.</p>
+      </div>
+
+      <!-- Jeans -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1593032465171-8e83f51d1c0f?auto=format&fit=crop&w=400&q=80" alt="Jeans">
+        <h3>Pantalón Jeans Blue Pacific</h3>
+        <p><strong>Marca:</strong> DenimCali</p>
+        <p><strong>Precio:</strong> $120.000 COP</p>
+        <p><strong>Tallas:</strong> 28, 30, 32, 34, 36</p>
+        <p><strong>Material:</strong> Mezclilla elástica con acabado azul oscuro y costuras reforzadas.</p>
+      </div>
+
+      <!-- Zapatillas -->
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1606813902919-7d16eebc5f2a?auto=format&fit=crop&w=400&q=80" alt="Zapatillas">
+        <h3>Zapatillas Flow Caleño</h3>
+        <p><strong>Marca:</strong> UrbanStep</p>
+        <p><strong>Precio:</strong> $220.000 COP</p>
+        <p><strong>Tallas:</strong> 37, 38, 39, 40, 41, 42</p>
+        <p><strong>Material:</strong> Cuero sintético y suela de goma flexible con detalles en color pastel.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
+ 
