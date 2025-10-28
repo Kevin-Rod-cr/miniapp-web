@@ -6,7 +6,7 @@
 
 ## 📝 Descripción corta
 **Tienda Retro 80s** es una tienda de ropa basada en los 80s.  
-La página muestra una sección de presentación con información sobre la tienda, una galería de productos como gorras, gafas, chaquetas, busos, jeans y zapatillas, y un formulario de contacto para los clientes.
+
 
 ## 📸 Captura de pantalla
 ![Captura 1](./foto1.png)
