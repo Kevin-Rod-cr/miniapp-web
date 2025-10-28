@@ -9,9 +9,10 @@
 La página muestra una sección de presentación con información sobre la tienda, una galería de productos como gorras, gafas, chaquetas, busos, jeans y zapatillas, y un formulario de contacto para los clientes.
 
 ## 📸 Captura de pantalla
-./foto1.png
-./foto2.png
-./foto3.png
+![Captura 1](./foto1.png)
+![Captura 2](./foto2.png)
+![Captura 3](./foto3.png)
+
 
 ## 🔗 Enlace al repositorio
 (https://github.com/Kevin-Rod-cr/miniapp-web)
