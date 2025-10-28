@@ -1,11 +1,11 @@
-# 🛍️ ClothesCaleño - MiniApp-Web
+# 🛍️ Tienda Retro 80s - MiniApp-Web
 
 ## 👥 Integrantes:
 - Kevin David Corrales Rodríguez  
 - Luis Mateo Pantoja Rodríguez
 
 ## 📝 Descripción corta
-**ClothesCaleño** es una tienda de ropa basada en Cali.  
+**Tienda Retro 80s** es una tienda de ropa basada en los 80s.  
 La página muestra una sección de presentación con información sobre la tienda, una galería de productos como gorras, gafas, chaquetas, busos, jeans y zapatillas, y un formulario de contacto para los clientes.
 
 ## 📸 Captura de pantalla
