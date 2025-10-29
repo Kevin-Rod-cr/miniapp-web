@@ -12,7 +12,7 @@ La página muestra una sección de presentación con información sobre la tiend
 ![Captura 1](./foto1.png)
 ![Captura 2](./foto2.png)
 ![Captura 3](./foto3.png)
-![Captura 4](./foto4.png)
+![Captura 4](./foto4.png) 
 
 
 ## 🔗 Enlace al repositorio
